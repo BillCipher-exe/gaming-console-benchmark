@@ -8,12 +8,11 @@ Gaming consoles are typically optimized for real-time, graphics-intensive worklo
 
 The benchmarks focus on the following types of workloads:
 
-1. **Integer Calculations**: Measures basic integer operations, useful for testing control logic or physics calculations.
-2. **Floating-Point Calculations (FP32 & FP64)**: Tests floating-point performance, simulating scenarios like physics calculations or procedural content generation.
-3. **Quicksort Algorithm**: Evaluates performance using the quicksort algorithm, a common task for sorting integers, which simulates workloads in data organization and game state management.
-4. **Prime Number Sieve**: Uses the Sieve of Eratosthenes to measure integer processing capabilities in handling high-throughput, iterative tasks.
-5. **Matrix Multiplication**: Tests FP32 matrix multiplications, which represent parts of linear algebra calculations used in physics or graphics.
-6. **Discrete Fourier Transformation (DFT)**: Benchmarks CPU performance in handling signal processing tasks by transforming time-domain data into the frequency domain, which is useful for applications like audio processing and procedural generation.
+1. **Matrix Multiplication**: Tests FP32 matrix multiplications, which represent parts of linear algebra calculations used in physics or graphics.
+2. **Quicksort Algorithm**: Evaluates performance using the quicksort algorithm, a common task for sorting integers, which simulates workloads in data organization and game state management.
+3. **Prime Number Sieve**: Uses the Sieve of Eratosthenes to measure integer processing capabilities in handling high-throughput, iterative tasks.
+4. **Monte Carlo Pi Calculation**: Estimates the value of π using a Monte Carlo method, simulating a workload that involves random number generation and floating-point arithmetic. This is a common method for statistical calculations and scientific simulations.
+5. **Discrete Fourier Transformation (DFT)**: Benchmarks CPU performance in handling FP64 signal processing tasks by transforming time-domain data into the frequency domain, which is useful for applications like audio processing and procedural generation.
 
 ## Limitations
 
