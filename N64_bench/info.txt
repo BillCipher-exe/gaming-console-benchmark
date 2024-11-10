@@ -1,1 +1,2 @@
-need to put libdragon binary in this folder.
+need to install libdragon frist.
+https://n64squid.com/homebrew/libdragon/setup/
