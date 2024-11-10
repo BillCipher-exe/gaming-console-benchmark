@@ -34,4 +34,5 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
    cd console-performance-benchmark
 
 ## Results
+The benchmarks were run on emulators representing different gaming consoles, with each test measuring the time taken by each workload in seconds. The following chart visualizes the performance across various consoles (emulated environments), giving insight into the relative strengths and weaknesses of each platform's CPU core.
 ![Benchmark Results](Results.png)
