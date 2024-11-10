@@ -12,7 +12,7 @@ The benchmarks focus on the following types of workloads:
 2. **Quicksort Algorithm**: Evaluates performance using the quicksort algorithm, a common task for sorting integers, which simulates workloads in data organization and game state management.
 3. **Prime Number Sieve**: Uses the Sieve of Eratosthenes to measure integer processing capabilities in handling high-throughput, iterative tasks.
 4. **Monte Carlo Pi Calculation**: Estimates the value of π using a Monte Carlo method, simulating a workload that involves random number generation and floating-point arithmetic. This is a common method for statistical calculations and scientific simulations.
-5. **Discrete Fourier Transformation (DFT)**: Benchmarks CPU performance in handling FP64 signal processing tasks by transforming time-domain data into the frequency domain, which is useful for applications like audio processing and procedural generation.
+5. **Discrete Fourier Transformation (DFT)**: Benchmarks FP64 CPU performance in handling signal processing tasks by transforming time-domain data into the frequency domain, which is useful for applications like audio processing and procedural generation.
 
 ## Limitations
 
