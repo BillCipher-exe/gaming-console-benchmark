@@ -4,15 +4,16 @@ This repository contains code and results from my attempt to benchmark various g
 
 ## Overview
 
-Gaming consoles are often optimized for real-time, graphics-intensive workloads, but their CPU performance varies widely based on hardware generation and architecture. This project aims to measure CPU capabilities in isolation, excluding GPU, SIMD extensions, and other accelerators. 
+Gaming consoles are typically optimized for real-time, graphics-intensive workloads, but CPU performance varies widely depending on the hardware generation and architecture. This project aims to measure CPU capabilities in isolation, excluding GPU, SIMD extensions, and other accelerators. 
 
 The benchmarks focus on the following types of workloads:
 
 1. **Integer Calculations**: Measures basic integer operations, useful for testing control logic or physics calculations.
 2. **Floating-Point Calculations (FP32 & FP64)**: Tests floating-point performance, simulating scenarios like physics calculations or procedural content generation.
-3. **Sorting Algorithms**: Evaluates the performance of integer sorting, a common algorithmic workload in various applications.
+3. **Quicksort Algorithm**: Evaluates performance using the quicksort algorithm, a common task for sorting integers, which simulates workloads in data organization and game state management.
 4. **Prime Number Sieve**: Uses the Sieve of Eratosthenes to measure integer processing capabilities in handling high-throughput, iterative tasks.
-5. **Matrix Multiplication**: Tests FP32 matrix multiplications, which can represent parts of linear algebra calculations used in physics or graphics.
+5. **Matrix Multiplication**: Tests FP32 matrix multiplications, which represent parts of linear algebra calculations used in physics or graphics.
+6. **Discrete Fourier Transformation (DFT)**: Benchmarks CPU performance in handling signal processing tasks by transforming time-domain data into the frequency domain, which is useful for applications like audio processing and procedural generation.
 
 ## Limitations
 
@@ -23,7 +24,7 @@ The benchmarks focus on the following types of workloads:
 ## Getting Started
 
 The code is designed to be as cross-platform as possible. To run the benchmarks on a console, you will need:
-- A way to compile and run C code on your target console. 
+- A way to compile and run C code on your target console.
 - A command line interface (CLI) or terminal access on the device, where possible.
 
 ### Running the Benchmarks
