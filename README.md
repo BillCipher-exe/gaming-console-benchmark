@@ -36,3 +36,13 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
 ## Results
 The benchmarks were run on emulators representing different gaming consoles, with each test measuring the time taken by each workload in seconds. The following chart visualizes the performance across various consoles (emulated environments), giving insight into the relative strengths and weaknesses of each platform's CPU core.
 ![Benchmark Results](Results.png)
+
+| Console  | FP32 Matrix Multip. | Bitwise Prime sieve | quicksort | Monte Carlo PI | FP64 Discrete Fourier transform |
+| -------- | ------------------- | ------------------- | --------- | -------------- | ------------------------------- |
+| PSP      | 2.376328            | 4.605509            | 1.0673    | 2.420361       | 5.210301                        |
+| PS2      | 2.693227            | 3.832727            | 0.965922  | 3.323292       | 3.989804                        |
+| Gamecube | 0.761466            | 1.600666            | 0.445144  | 2.193801       | 0.052827                        |
+| N64      | 33.797422           | 30.539562           | 5.406517  | 6.507912       | 1.086304                        |
+| 3DS      | 2.327               | 5.533               | 1.296     | 5.185          | 0.093                           |
+| DSi      | 52.87058            | 10.024085           | 2.534641  | 19.717388      | 3.09211                         |
+| DS       | 105.810158          | 20.0612             | 5.072587  | 39.460449      | 6.188239                        |
