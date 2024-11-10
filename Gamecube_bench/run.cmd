@@ -1,0 +1,1 @@
+docker run --rm -it -v .:/work -w /work devkitpro/devkitppc make

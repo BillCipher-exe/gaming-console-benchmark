@@ -1,0 +1,1 @@
+Docker run --rm -it -v .:/work -w /work pspdev/pspdev make

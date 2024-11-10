@@ -1,0 +1,1 @@
+docker run --rm -it -v .:/work -w /work ghcr.io/ps2homebrew/ps2homebrew:main make

@@ -1,0 +1,1 @@
+docker run --rm -v .:/work -it --entrypoint make skylyrac/blocksds:slim-latest
