@@ -32,3 +32,6 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
    ```bash
    git clone https://github.com/yourusername/console-performance-benchmark
    cd console-performance-benchmark
+
+## Results
+![Benchmark Results](results.png)
