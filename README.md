@@ -34,4 +34,4 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
    cd console-performance-benchmark
 
 ## Results
-![Benchmark Results](results.png)
+![Benchmark Results](Results.png)
