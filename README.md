@@ -32,7 +32,7 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
    ```bash
    git clone https://github.com/yourusername/console-performance-benchmark
    cd console-performance-benchmark
-2. **Run the Dockercontainer**:
+2. **Run the Docker container**:
    ```
    1.execute the run.cmd in the system folder you want to compile for.
    2.run the binary on actual hardware or emulator
