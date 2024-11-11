@@ -32,6 +32,11 @@ The code is designed to be as cross-platform as possible. To run the benchmarks 
    ```bash
    git clone https://github.com/yourusername/console-performance-benchmark
    cd console-performance-benchmark
+2. **Run the Dockercontainer**:
+   ```
+   -execute the run.cmd in the system folder you want to compile for.
+   -run the binary on actual Hardware or Emulator
+   ```
 
 ## Results
 The benchmarks were run on emulators representing different gaming consoles, with each test measuring the time taken by each workload in seconds. The following chart visualizes the performance across various consoles (emulated environments), giving insight into the relative strengths and weaknesses of each platform's CPU core.
